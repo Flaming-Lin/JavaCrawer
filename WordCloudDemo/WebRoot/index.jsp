@@ -9,7 +9,7 @@
 	try 
 	{
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=jidong", "Flaming","nuofeng123456");
+		conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=jidong", "xxx","xxx");
 		System.out.println("---------连接数据库----------");
 	} 
 	catch(ClassNotFoundException e)
