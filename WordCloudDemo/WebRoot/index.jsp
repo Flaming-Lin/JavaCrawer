@@ -61,7 +61,7 @@
         // 指定图表的配置项和数据
         var option = {
             title: {
-                text: '新浪新闻热词分析'
+                text: '热词分析'
             },
             tooltip: {},
             legend: {
